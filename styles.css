@@ -109,3 +109,22 @@ nav a:hover {
     border-top-right-radius: 5px;
     display: block;
 }
+.testing {
+    background: #4A5568;
+    color: white;
+    padding: 30px 0;
+}
+.testing .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.testing .btn {
+    background: #48BB78;
+    color: white;
+    padding: 10px 14px;
+    border-radius: 5px;
+}
+.testing .container > *:first-child {
+    max-width: 70%;
+}
